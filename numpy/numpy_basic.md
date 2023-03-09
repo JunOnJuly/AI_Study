@@ -41,4 +41,3 @@ a_list[0] is b_list[-1]
 ```
 ![img](images/difference_between_list_and_array.webp)
 <p style="text-align: right"> [출처] https://python.plainenglish.io/exploring-python-data-structures-single-linked-lists-part-1-cb0f92cdb7d9 </p>
-

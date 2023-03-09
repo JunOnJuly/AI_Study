@@ -2,7 +2,7 @@
 * 굉장히 큰 matrix 와 많은 수식
 * python 은 인터프리터 언어 $\rightarrow$ 처리속도 문제
 
-$\rightarrow$ numpy를 사용하자
+#### $\rightarrow$ numpy를 사용하자
 ### numpy(numerical python)
 * 넘파이라고 부름
 * 파이썬의 고성능 과학 계산용 패키지

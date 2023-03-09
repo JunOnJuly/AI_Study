@@ -28,9 +28,6 @@ type(first_array[1])
 # numpy.float64
 ```
 * 리스트와 달리 데이터가 차례대로 저장됨 $\rightarrow$ 연산 속도가 빨라짐, 메모리 공간 잡기도 효율적
-![img](images/difference_between_list_and_array.webp)
-<p style="text-align: right"> [출처] https://python.plainenglish.io/exploring-python-data-structures-single-linked-lists-part-1-cb0f92cdb7d9 </p>
-
 ```python
 a_list = [1, 2, 3]
 b_list = [3, 2, 1]
@@ -42,3 +39,6 @@ b_list = np.array([3, 2, 1])
 a_list[0] is b_list[-1]
 # False
 ```
+![img](images/difference_between_list_and_array.webp)
+<p style="text-align: right"> [출처] https://python.plainenglish.io/exploring-python-data-structures-single-linked-lists-part-1-cb0f92cdb7d9 </p>
+

@@ -28,7 +28,7 @@ type(first_array[1])
 # numpy.float64
 ```
 * 리스트와 달리 데이터가 차례대로 저장됨 $\rightarrow$ 연산 속도가 빨라짐, 메모리 공간 잡기도 효율적
-![img](https://miro.medium.com/v2/resize:fit:720/format:webp/1*WPRfgLC-j3BYi_G1ntqCRA.png)
+![img](images/difference_between_list_and_array.webp)
 <div style="text-align: right"> [출처] https://python.plainenglish.io/exploring-python-data-structures-single-linked-lists-part-1-cb0f92cdb7d9 </div>
 
 ```python

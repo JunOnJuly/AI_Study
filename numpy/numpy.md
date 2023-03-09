@@ -15,3 +15,14 @@
   * c, c++ 등 여러 언어와 통합 가능하다
 
 ## ndarray
+* numpy 에서 사용하는 배열
+* np.array 함수를 사용해 생성
+* 하나의 데이터 타입만 배열에 넣을 수 있음 $\rightarrow$ dynamic typing not supported 
+* c언어 의 array 를 사용해 배열 생성
+```python
+first_array = np.array([1, 2, 3, 4], float)
+first_array
+# array([1., 2., 3., 4.])
+type(first_array[1])
+# numpy.float64
+```

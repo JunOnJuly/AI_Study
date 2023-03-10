@@ -7,15 +7,11 @@
 * 손실함수를 최소화하는 파라미터를 업데이트하고 찾는게 목표
 * 특정 위치에서 손실함수의 미분값과 학습률을 곱한 값을 파라미터에서 빼줌
 $\rightarrow$ 미분값이 음수라면 양의 방향으로, 미분값이 양수라면 음의 방향으로 파라미터 업데이트
-\
-$$
-\begin{aligned}
-\omega& \rightarrow 임의의\;파라미터\\
-\alpha& \rightarrow 학습률\\\\
-\omega&_{n}=\omega_{n-1}-\alpha\nabla f(\omega_{n-1})
-\end{aligned}
-$$
-
+```math
+\omega \rightarrow 임의의\;파라미터\\
+\alpha \rightarrow 학습률\\\\
+\omega_{n}=\omega_{n-1}-\alpha\nabla f(\omega_{n-1})
+```
 ## 코드
 ```python
 # --------------------------- modules --------------------------- #
@@ -128,5 +124,4 @@ plt.plot(moved_x, moved_y, c='red')
 <div style="display: flex; justify-content: center;">
   <img src="images/grad_result_graph.png" style="width: 40%;">
   <img src="images/grad_result_text.png" style="width: 40%;">
-
 </div>

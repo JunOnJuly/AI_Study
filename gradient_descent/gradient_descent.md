@@ -126,7 +126,7 @@ plt.plot(plt_x, plt_y)
 plt.plot(moved_x, moved_y, c='red')
 ```
 <div style="display: flex; justify-content: center;">
-  <img src="images/grad_result_graph.png" style="width: 50%;">
-  <img src="images/grad_result_text.png" style="width: 50%;">
+  <img src="images/grad_result_graph.png" style="width: 40%;">
+  <img src="images/grad_result_text.png" style="width: 40%;">
 
 </div>

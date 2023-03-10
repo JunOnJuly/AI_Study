@@ -125,8 +125,8 @@ moved_y = np.array(list(map(lambda x: cal_func(picked_var, x), returned_x)))
 plt.plot(plt_x, plt_y)
 plt.plot(moved_x, moved_y, c='red')
 ```
-<div style="display: flex;">
+<div style="display: flex; justify-content: center;">
   <img src="images/grad_result_graph.png" style="width: 31vw;">
-  <img src="images/grad_result_text.png">
+  <img src="images/grad_result_text.png" style="width: 50vw;">
 
 </div>

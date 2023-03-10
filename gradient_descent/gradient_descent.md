@@ -7,11 +7,13 @@
 * 손실함수를 최소화하는 파라미터를 업데이트하고 찾는게 목표
 * 특정 위치에서 손실함수의 미분값과 학습률을 곱한 값을 파라미터에서 빼줌
 $\rightarrow$ 미분값이 음수라면 양의 방향으로, 미분값이 양수라면 음의 방향으로 파라미터 업데이트
-```math
-\omega \rightarrow 임의의\;파라미터\\
-\alpha \rightarrow 학습률\\\\
-\omega_{n}=\omega_{n-1}-\alpha\nabla f(\omega_{n-1})
-```
+
+$$ \omega \rightarrow 파라미터$$
+
+$$ \alpha \rightarrow 학습률$$
+
+$$ \omega_{n}=\omega_{n-1}-\alpha\nabla f(\omega_{n-1})$$
+
 ## 코드
 ```python
 # --------------------------- modules --------------------------- #

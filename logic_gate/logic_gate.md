@@ -61,4 +61,4 @@ print(f'OR(1, 1) => {OR(1, 1)}')
 
 # ---------------------------- plot ---------------------------- #
 ```
-<img src="imges/../images/xor_gate.png" style="margin-right: auto; margin-left: auto;">
+<img src="/images/xor_gate.png" style="margin-right: auto; margin-left: auto;">
